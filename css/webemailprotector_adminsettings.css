@@ -1,0 +1,126 @@
+/* wep wordpress plugin div css markup */
+
+.webemailprotector_admin_wrap body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+  font-family:Nunito, "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------ FONTS ---------------*/
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fredoka One'), local('FredokaOne-Regular'), url(https://fonts.gstatic.com/s/fredokaone/v4/SL0aFUFfkFMMdariYQ3_YYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v7/0rdItLTcOd8TSMl72RUU5w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v7/TttUCfJ272GBgSKaOaD7Kj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+
+.webemailprotector_admin_wrap {background:white;margin:0;padding:0;border:0;}
+
+.webemailprotector_admin_wrap red {color:red;}
+
+.webemailprotector_admin_wrap blue {color:blue;}
+
+.webemailprotector_admin_wrap green {color:green;}
+
+.webemailprotector_admin_wrap a {background:green;border-radius:5px;padding:4px;color:white;text-decoration:none;}
+
+.webemailprotector_admin_wrap p {margin-left:30px;font-size:14px;}
+
+.webemailprotector_admin_wrap img.topblock {display:block; margin:0px 30px 0px 60px; vertical-align:middle; float:left;}
+
+.webemailprotector_admin_wrap h1.topblock {margin:30px 0px 5px 100px; font-size:18px; color:black; background:white; padding:5px;}
+
+.webemailprotector_admin_wrap p.topblock {margin:5px;}
+
+.webemailprotector_admin_wrap h1 red , .webemailprotector_admin_wrap h1 blue , .webemailprotector_admin_wrap h1 green {font-size:24px;}
+
+.webemailprotector_admin_wrap h2 {font-size:16px;color:black;}
+
+/*.webemailprotector_admin_wrap input[type="button"] , .webemailprotector_admin_wrap table input[type="button"] {color:black;background:#1G8EC2;display:inline-block;text-decoration:none;font-size:13px;line-height:26px;height:28px;margin:0;padding:0 10px 1px;cursor:pointer;border-width:1px;border-style:solid;-webkit-border-radius:3px;-webkit-appearance:none;border-radius:3px;white-space:nowrap;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-radius:3px;}
+
+.webemailprotector_admin_wrap input[type="button"]:hover , .webemailprotector_admin_wrap table input[type="button"]:hover {background: #1E8CC4;}
+*/
+.webemailprotector_admin_wrap table.wep_top {margin-top:10px;margin-left:50px;padding:20px;float:left;}
+
+.webemailprotector_admin_wrap table.wep_top td {width:300px;vertical-align:top;}
+
+.webemailprotector_admin_wrap table.wep_main {background:#f0f0f0;border:1px solid silver; border-radius:15px;margin-top:10px;margin-left:50px;padding:20px;}
+
+.webemailprotector_admin_wrap table.wep_main tr {}
+
+.webemailprotector_admin_wrap table.wep_main th {font-size:14px;}
+
+.webemailprotector_admin_wrap table.wep_main td {}
+
+.webemailprotector_admin_wrap table.wep_main p {}
+
+.webemailprotector_admin_wrap table.wep_main a , input.button.dummy {font-weight: bold; vertical-align:middle;}
+
+.webemailprotector_admin_wrap table.wep_main a:hover {color:black;}
+
+.webemailprotector_admin_wrap table.wep_main input[type="text"] {text-align:center;padding:5px;margin:0;width:300px;border:1px solid black;border-radius:5px;font-weight: bold;color:#A0A0A0;}
+
+.webemailprotector_admin_wrap table.wep_main input[type="text"]:focus {color:black;}
+
+.webemailprotector_admin_wrap input.button.getkey {
+	background-image: url('../images/key.png'); 
+	background-repeat: no-repeat, repeat; 
+	background-position: center;
+	background-size: contain;
+    border: 1px solid #FFFFFF;
+	background-color:#343a40;
+	color: #FFFFFF;
+	border-radius: 5px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.webemailprotector_admin_wrap input.button.getkey:hover {
+    border: 1px solid #FFC10E;
+	color: #FFC10E;
+}
+
+.webemailprotector_admin_wrap input.button.verify {
+	background-image: url('../images/tick.png'); 
+	background-repeat: no-repeat, repeat; 
+	background-position: center;
+	background-size: contain;
+    border: 1px solid #FFFFFF;
+	background-color:#343a40;
+	color: #FFFFFF;
+	border-radius: 5px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.webemailprotector_admin_wrap input.button.verify:hover {
+    border: 1px solid #FFC10E;
+	color: #FFC10E;
+}
+
+.webemailprotector_admin_wrap table.wep_main input.button.delete , input.button.dummydelete { vertical-align:middle; border: none; background: transparent; background-image: url('../images/trash-50-red.png'); background-image: url('../images/trash-50.png'); background-size: contain;   background-repeat: no-repeat; background-position: center center;}
+
+.webemailprotector_admin_wrap table.wep_main input.button.delete:hover {background-image: url('../images/trash-50-red.png'); background-color:transparent;}
+
+.webemailprotector_admin_wrap table.wep_main td:empty::after {content: "\00a0";}
+
+.webemailprotector_admin_wrap #wep_spinner {position:fixed;text-align:centre;width:200px;top:30%;left:40%;margin-left:auto;margin-right:auto;display:none;padding:45px;z-index:1001;background:white;border-radius:15px;border:1px solid silver;}
+
+.webemailprotector_admin_wrap #wep_spinner img {display:block;margin-left:auto;margin-right:auto;}
+
+.webemailprotector_admin_wrap #wep_spinner p {display:block;margin-left:auto;margin-right:auto;text-align:center;}
+
+.webemailprotector_admin_wrap #wep_dullout {display:none;z-index:1000;position:fixed;top:0;left:0;width:100%;height:100%;background:gray;opacity:0.6;filter:alpha(opacity=60);}
+
+.webemailprotector_admin_wrap #wep_dullout p {display:block;}

@@ -1,0 +1,13 @@
+/* STYING FOR SOCIAL MENUS ON THE WP TWENTYTHIRTEEN THEME FOR EXAMPLE*/
+.social-navigation a[href*="JavaScript:emo"]:before {
+	content: "\f410";
+}
+/* DO NOT MODIFY THIS FILE AS WILL GET OVERWRITTEN WHEN PLUGIN UPDATES */
+/* INSTEAD PUT SITE SPECIFIC CHANGES IN webemailprotector_youremailstyle.css */
+
+a.wep_email::after {
+    display: inline;
+    content: url('../images/icon-25x25.png');
+    text-decoration: none;
+    margin-left: 5px;
+}
